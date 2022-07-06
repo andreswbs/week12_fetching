@@ -26,7 +26,8 @@ const renderUsers = (data) => {
  * Below you will have to fetch the data from the link (stored in the variable url)
  * Once retrieved, you will pass the result as an argument of the function renderUsers
  */
+
 const root = ReactDOM.createRoot(document.getElementById('users')) 
 root.render(
-  <Users />
+  <Users url={url} />
 )
